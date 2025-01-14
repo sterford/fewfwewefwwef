@@ -30,32 +30,32 @@ import Review from '@/components/Reviews/SingleReview.vue'
 
 const reviews1 = [
     { 
-        text: "Everlast keeps me ahead of the game! Even the most advanced anti-cheats can't stop me now.",
+        text: "Zaharov keeps me ahead of the game! Even the most advanced anti-cheats can't stop me now.",
         avatar: "@/assets/img/ReviewsAvatars/review1.jpg"
     },
 
     { 
-        text: "I've been using Everlast for months and haven't been caught once! Highly recommend it to anyone who wants to dominate.",
+        text: "I've been using Zaharov for months and haven't been caught once! Highly recommend it to anyone who wants to dominate.",
         avatar: "@/assets/img/ReviewsAvatars/test.jpeg"
     },
 
     { 
-        text: "I never thought it would be this easy to bypass all the anti-cheats. Everlast is a game-changer!",
+        text: "I never thought it would be this easy to bypass all the anti-cheats. Zaharov is a game-changer!",
         avatar: "@/assets/img/ReviewsAvatars/test.jpeg"
     },
 
     { 
-        text: "Now I'm always at the top of the leaderboard. Thanks to Everlast for giving me the edge!",
+        text: "Now I'm always at the top of the leaderboard. Thanks to Zaharov for giving me the edge!",
         avatar: "@/assets/img/ReviewsAvatars/test.jpeg"
     },
 
     { 
-        text: "Thanks to Everlast, the game has become so much more fun! No more fear of getting banned.",
+        text: "Thanks to Zaharov, the game has become so much more fun! No more fear of getting banned.",
         avatar: "@/assets/img/ReviewsAvatars/test.jpeg"
     },
 
     { 
-        text: "A reliable tool that truly works. Everlast is the best cheat I've ever used!",
+        text: "A reliable tool that truly works. Zaharov is the best cheat I've ever used!",
         avatar: "@/assets/img/ReviewsAvatars/test.jpeg"
     },
 ];

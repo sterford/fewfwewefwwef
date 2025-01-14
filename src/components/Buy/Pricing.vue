@@ -35,7 +35,7 @@ const selectedPlan = computed(() => subscriptionStore.selectedPlan);
 <style scoped>
 
 .custom-border {
-    border: 1.2px solid #A39BD61A;
+    border: 1.2px solid #3F55E01A;
 }
 
 </style>

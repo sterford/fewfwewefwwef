@@ -53,7 +53,7 @@
           <ul class="list-disc list-inside">
             <li>{{ $t('privacy.section7.access') }}</li>
             <li>{{ $t('privacy.section7.delete') }}</li>
-            <li>{{ $t('privacy.section7.withdraw') }} support@Everlast.fun</li>
+            <li>{{ $t('privacy.section7.withdraw') }} sovokguard@gmail.com</li>
           </ul>
         </div>
   
@@ -64,7 +64,7 @@
   
         <div>
           <h3 class="text-xl font-semibold mb-4">{{ $t('privacy.section9.title') }}</h3>
-          <p>{{ $t('privacy.section9.text') }} support@Everlast.fun</p>
+          <p>{{ $t('privacy.section9.text') }} sovokguard@gmail.com</p>
         </div>
       </div>
     </div>

@@ -10,13 +10,13 @@
   }
 
   .border-bottom-custom-adventage {
-    border: 1.2px solid #A39BD61A;
+    border: 1.2px solid #3F55E01A;
   }
 
   .border-bottom-custom2 {
     border-width: 1.2px;
     border-style: solid;
-    border-image-source: linear-gradient(180deg, #D4CDFF 0%, rgba(212, 205, 255, 0.5) 100%);
+    border-image-source: linear-gradient(180deg, #D4CDFF 0%, #3F55E0 100%);
     border-image-slice: 1;
   }
 
@@ -31,7 +31,7 @@
   }
 
   .custom-gradient-text-title-main {
-    background: linear-gradient(90deg, #DCD7FF 0%, #9088C6 100%);
+    background: linear-gradient(90deg, #DCD7FF 0%, #3F55E0 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

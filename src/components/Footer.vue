@@ -1,13 +1,13 @@
 <template>
     <footer class="absolute bottom-0 left-0 w-full py-4 px-8 flex justify-between items-center border-t border-gray-950 select-text">
       <div class="flex flex-col space-y-2 text-custom-white-adventage text-sm flex-1">
-        <span>{{ $t('footer.contact_email') }} support@Everlast.fun</span>
+        <span>{{ $t('footer.contact_email') }} sovokguard@gmail.com</span>
         <span>{{ $t('footer.copyright') }}</span>
 
       </div>
   
       <p class="flex text-custom-white-adventage">
-        Ебленко Еблан Ебланович | ИНН 11111111111
+        Клиент находится под защитой SovokGuard. Копирование сайта запрещенно!
       </p>
   
       <div class="flex flex-col justify-between space-x-4 items-end flex-1">
@@ -23,10 +23,10 @@
           </RouterLink>
         </div>
         <div class="flex space-x-4">
-          <a href="https://discord.gg/kAAfjDFd6y" target="_blank" class="text-2xl">
+          <a href="https://discord.gg/TQN7XUbfHC" target="_blank" class="text-2xl">
             <img src="../assets/img/icons/Footer/discord.png" alt="Discord Icon">
           </a>
-          <a href="https://t.me/Everlast_fun" target="_blank" class="text-2xl">
+          <a href="https://t.me/zaharovdlc" target="_blank" class="text-2xl">
             <img src="../assets/img/icons/Footer/telegram.png" alt="Telegram Icon">
           </a>
         </div>

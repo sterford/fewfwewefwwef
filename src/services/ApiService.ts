@@ -2,7 +2,7 @@ import axios, { AxiosError, AxiosHeaders } from 'axios';
 import type { AxiosResponse, InternalAxiosRequestConfig } from 'axios';
 import AuthService from '@/services/AuthService';
 
-const apiUrl = "https://92.255.110.219:8000/api/v1/";
+const apiUrl = "http://localhost:8000/api/v1/";
 
 const httpClient = axios.create({
   baseURL: apiUrl,

@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col gap-y-4 ml-16 my-10">
-        <h1 class="custom-gradient-text-title text-3xl mb-4">Everlast</h1>
+        <h1 class="custom-gradient-text-title text-3xl mb-4">Zaharov Tariffs:</h1>
 
         <div
             v-for="plan in plans"
@@ -44,6 +44,7 @@ const plans = computed(() => [
     { sub_type: 'MONTH', price: 199, name: t('pricing.month') },
     { sub_type: 'THREE_MONTHS', price: 299, name: t('pricing.three_months') },
     { sub_type: 'YEAR', price: 499, name: t('pricing.year') },
+    { sub_type: 'LIFETIME', price: 599, name: t('pricing.lifetime') },
 ]);
 
 const selectedPlan = computed({

@@ -28,7 +28,7 @@
               {{ $t('adventages.first.name') }}
             </h1>
             <!-- <p class="text-custom-white-adventage">
-              With Everlast you will always defeat everyone, because our cheat bypasses a huge number of anti-cheats.
+              With Zaharov you will always defeat everyone, because our cheat bypasses a huge number of anti-cheats.
             </p> -->
             <p class="text-custom-white-adventage">
               {{ $t('adventages.first.text') }}            
@@ -78,33 +78,8 @@
 
       </div>
 
-      <!-- Статистика -->
-      <div class="flex flex-wrap justify-center gap-6 md:gap-x-28 gap-y-4 z-10">
-
-        <span class="text-white flex flex-row text-xl items-center gap-2">
-          <img src="../assets/img/Adventages/Users.png" alt="Users icon" class="w-6 h-6">
-          {{ $t('adventages.stat.users') }} 0
-        </span>
-        <img src="../assets/img/Adventages/separator.png" alt="Separator" class="hidden md:block">
-
-        <span class="text-white flex flex-row text-xl items-center gap-2">
-          <img src="../assets/img/Adventages/Launches.png" alt="Launches icon" class="w-6 h-6">
-          {{ $t('adventages.stat.launches') }} 0
-        </span>
-        <img src="../assets/img/Adventages/separator.png" alt="Separator" class="hidden md:block">
-
-        <span class="text-white flex flex-row text-xl items-center gap-2">
-          <img src="../assets/img/Adventages/Updates.png" alt="Updates icon" class="w-6 h-6">
-          {{ $t('adventages.stat.updates') }} 0
-        </span>
-        <img src="../assets/img/Adventages/separator.png" alt="Separator" class="hidden md:block">
-
-        <span class="text-white flex flex-row text-xl items-center gap-2">
-          <img src="../assets/img/Adventages/Days.png" alt="Days icon" class="w-6 h-6">
-          {{ $t('adventages.stat.days') }} 1
-        </span>
+    
         
-      </div>
     </div>
   </div>
 </template>

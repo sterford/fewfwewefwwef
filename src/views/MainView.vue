@@ -10,9 +10,7 @@
       <Adventages />
     </div>
 
-    <div id="sectionReviews" class="flex items-center justify-center w-full h-screen lg:px-40 ">
-      <Reviews />
-    </div>
+
 
 
 

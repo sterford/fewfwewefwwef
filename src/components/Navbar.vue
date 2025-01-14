@@ -5,7 +5,7 @@
         <!-- Логотип -->
         <div class="flex-1 flex items-center gap-x-10 ">
             <router-link :to="{ name: 'main' }">
-                <img class="h-10 w-10 md:h-10 md:w-10 lg:h-10 lg:w-10 hover:animate-pulse" src="../assets/img/Avatar.svg" alt="TE Logo" loading="lazy" />
+                <img class="h-10 w-10 md:h-10 md:w-10 lg:h-10 lg:w-10 hover:animate-pulse" src="../assets/img/Avatar.png" alt="TE Logo" loading="lazy" />
             </router-link>
             <div class="flex justify-end gap-2.5 z-50">
 
@@ -132,7 +132,7 @@ onMounted(() => {
   transform: translateX(-50%);
   width: 6px; 
   height: 6px; 
-  background-color: #A39BD6; 
+  background-color: #3F55E0; 
   border-radius: 50%;
 }
 

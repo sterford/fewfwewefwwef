@@ -30,7 +30,7 @@
   
         <div>
           <h3 class="text-xl font-semibold mb-4">{{ $t('terms.section4.title') }}</h3>
-          <p>{{ $t('terms.section4.text') }}  support@Everlast.fun</p>
+          <p>{{ $t('terms.section4.text') }}  sovokguard@gmail.com</p>
         </div>
   
         <div>
@@ -56,7 +56,7 @@
   
         <div>
           <h3 class="text-xl font-semibold mb-4">{{ $t('terms.section9.title') }}</h3>
-          <p>{{ $t('terms.section9.text') }}  support@Everlast.fun</p>
+          <p>{{ $t('terms.section9.text') }}  sovokguard@gmail.com</p>
         </div>
       </div>
     </div>

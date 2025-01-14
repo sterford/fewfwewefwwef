@@ -62,28 +62,34 @@ const router = useRouter();
 const user = computed(() => userStore.user);
 
 const download = () => {
-    notify({
+    const allowedRoles = ['USER', 'MEDIA', 'BETA', 'MANAGER', 'CEO'];
+    if (user.value?.role && allowedRoles.includes(user.value.role)) {
+        window.location.href = 'https://zaharovdlc.xyz/api/api/v1/loader/files/download/zaharovloader.zip';
+    } else {
+        notify({
             group: "nahui",
             type: "error",
             title: "Download error",
-            text: "Not available now :(",
+            text: "You do not have permission to download this file.",
         });
-}
-const beta = () => {
-    notify({
-            group: "nahui",
-            type: "error",
-            title: "Buying Beta error",
-            text: "Not available now :(",
-        });
-}
+    }
+};
 
+const beta = () => {
+    window.location.href = 'https://funpay.com/users/10539594/';
+};
 const signOut = async () => {
     try {
         AuthService.logout(); 
         await router.push({ name: 'main' });
     } catch (error) {
         console.error('Error during sign out:', error);
+        notify({
+            group: "nahui",
+            type: "error",
+            title: "Sign Out Error",
+            text: "Error during sign out...",
+        });
     }
 };
 
